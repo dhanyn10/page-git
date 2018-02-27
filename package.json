@@ -1,0 +1,11 @@
+{
+  "name": "pagegit",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "~1.8.2"
+  }
+}
