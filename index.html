@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    initial sites
-    <script>
-      require('./renderer.js')
-    </script>
-  </body>
+    <head>
+        <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+        <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>PageGit</title>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col s4">
+                <div class="collection">
+                    <a href="" class="collection-item active">Github</a>
+                    <a href="settings.html" class="collection-item">Settings</a>
+                </div>
+            </div>
+            <div class="col s8">
+                <div class="container">
+                    <div class="row">
+                        <input type="text" id="" class="validate" placeholder="your repository url">
+                    </div>
+                    <div class="row">
+                        Git Credentials
+                    </div>
+                    <div class="row">
+                        <input type="text" id="" class="validate s6" placeholder="username">
+                        <input type="password" id="" class="validate s6" placeholder="password">
+                    </div>
+                    <div class="row">
+                        <button class="waves-effect waves-light btn blue">next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        require('./renderer.js')
+        </script>
+    </body>
 </html>
